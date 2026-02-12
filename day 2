@@ -1,1 +1,18 @@
+# today is a day 2 of learning cyber security using try hack me 
+
+#
+today we have learn about networking basics 
+
+# 1) what is ip address (INTERNET PROTOCAL) internet protocal use a number system called octet to make ip its range upto 0-255 in per octat example of ip address 192.168.0.1 each one point change the octet system 
+  (ip address not of a identity of a network in internet world its has 2 types 1 private ip and 2 public ip (private ip work in a local network where the public ip address is use in interet world it private ip 
+  address assiged by a DHCP and public ip address assigned by a isp ) it is a mostly use term in internet world to identify in a internet world )
+
+# 2) secod we have learn about MAC address MAC address stands for a Media Acess Controll it has a usiqe identity of our hardwere device in a network it has uniqe address assigned in a network interface card in a motherboard 
+ (mac address has uniqe 12 degit no. were the 1 6 digit indetify a manufracturer were last 6 no. in uniqe is of our system (basic mac addrss attack mac Spoofing ) 
+mac spoofing attack were attacker act like a another user to get access 
+
+# 3) third we have seen about ping command which is use to transfer ICMP eaho paket to get conectivety of network between internet using ICMP packet its measured responce time from server 
+
+then we leaern about lan in day 3 
+
 
