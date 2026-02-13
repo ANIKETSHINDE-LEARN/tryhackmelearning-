@@ -1,0 +1,12 @@
+here we going to learn about a topologies in a network 
+
+# 1) first is a start topology : start topology is a look like a star  it has a cetralized devcice connected with a nodes and its requered more cabaling its very scalable and robust network topology but its not easy to mainain it is very easy to add 
+  a new node or sysytem but its difficult to troubleshout thats why the start topology failes is a industry (in case of failure of cetrolized device all network is down)
+
+#2) 2nd we learn about router: router is non of a networking device that route the packets into LOCAL AREA NETWORK to WIDE AREA NETWORK it decides a shortest distance travle a packet to achive destination 
+
+#3) ARP (adress resolution protocall) it is use to map ip and mac address into there cache memory 
+
+#4) DHCP ( DYNAMIC HOST configeration protocal) which is use to assigne ip address of a new devices enter in a network 
+
+#5) IP SUBNETTING ip subneting non of a create sub networks in a one big networks 
