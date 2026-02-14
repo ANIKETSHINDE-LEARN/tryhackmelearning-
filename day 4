@@ -1,0 +1,18 @@
+today we learn about the small information about osi model
+  1 what is osi model 
+  2 how its work 
+  3 all leyers overwiew
+
+
+
+  1) osi model is a model which give you information about how data has been transfers in a internet 
+
+  2) osi model is a work on layer which has a 7 layers with individual aspect 
+
+  3)  1 physical layer     : here data has been transfer beetween electonic signals to computer known binary language with networking device like wires and cables 
+      2 data link layer    : data link layer is a layer 2 which is reconstuct the packet which is given in small many packets and its also bind mac address to data 
+      3 network layer      : in network layer router take place with using ip address which find best convinient and fastest path to travel data in shorter time its use 2 protocals (RIP) routing information protocal and (OSPF) open shortest path finder  
+      4 transport layer    : transport layer were decide which protocal is use tcp or udp its its contaion ports also 
+      5 session layer      : session layer is a layer 5 which create session between sender and reciving it is istablish connection its responsible for maintain connectivty session layer id or password or session id 
+      6 presentation layer : in presentation layer work as a translator its encypt data depending upon protocals like encyption tls or https
+      7 application layer  : application layer Your browser creates the web request http/https
