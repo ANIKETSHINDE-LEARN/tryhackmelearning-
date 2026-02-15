@@ -1,0 +1,149 @@
+DAY 5 packet and frame 
+  1) first of all we know about packet and frame where the  both are the small data part which after a encode and get full data as like one data devide into small same part to fast transfer packet use layer 3 or frame layer 2 
+  2 tcp/ip in tcp/ip we know about a heades and three way hand shake and addvantage and dis advantage of tcp/ip 
+    fist of all headers of tcp/ip 1)source port 
+                                  2) destination port
+                                  3) source ip
+                                  4) destinaation ip 
+                                  5)sequential no.
+                                  6) checksum 
+                                  7)acknowledgment no.
+                                  8)data 
+                                  9) flag 
+
+      - tcp/ip advantage and disadvantage 
+       - advantage 
+        Perfect! Let’s break TCP (Transmission Control Protocol) down in a simple, clear way — advantages and disadvantages.
+
+🔹 TCP Advantages ✅
+
+Reliable Delivery
+
+TCP ensures all packets arrive complete and in order.
+
+Lost packets are retransmitted automatically.
+
+Connection-Oriented
+
+Establishes a connection before sending data (3-way handshake).
+
+Ensures both sender and receiver are ready.
+
+Flow Control
+
+Prevents sender from overwhelming receiver.
+
+Uses windowing mechanism.
+
+Error Detection & Correction
+
+Each segment has checksum.
+
+Errors are detected and corrected via retransmission.
+
+Segmentation and Reassembly
+
+Large data is broken into smaller segments.
+
+Receiver reassembles them in order.
+
+Multiplexing
+
+Multiple applications can share one connection using port numbers.
+
+
+  
+  
+  
+  🔹 TCP Disadvantages ❌
+
+Slower than UDP
+
+Due to reliability checks, flow control, and handshake overhead.
+
+Overhead
+
+TCP headers are larger (20 bytes minimum), adds extra bits to each segment.
+
+Connection Setup Required
+
+3-way handshake adds latency before data transfer starts.
+
+Resource Intensive
+
+Needs memory and processing at both ends to track connections and state.
+
+🔹 Quick Memory Trick
+
+
+      - tcp 3 way handshake  tcp 3 way hand shake use to connect a secure connection between sender and reciver its use thats various flags like syn,ack,fin,res,data
+
+
+
+
+
+
+
+    3) #udp/ip   udp ip is the same transport layer protocal where the data tranfer using user datagram protocall its for a brodcasting and multicasting the data he,s not matter data is reciving or not its not reliable for a importante data its use in
+               like data like video streaming its not check tha data intigrity like tcp/ip 
+
+
+
+               # udp/ip headesrs  
+
+                  1) time to live 
+                  2) source address 
+                  3) destination address
+                  4) source port 
+                  5) destination port 
+                  6) data 
+
+                       # advantage and disadvantage of udp ip 
+
+        🔹 UDP (User Datagram Protocol) Advantages ✅
+Lightweight / Low Overhead
+
+UDP header is only 8 bytes → fast transmission.
+Faster than TCP
+
+No connection setup (3-way handshake)
+No retransmissions → suitable for real-time apps.
+Supports Broadcasting / Multicasting
+
+Can send packets to multiple hosts at once.
+Simple
+
+Easy to implement
+Good for small query-response protocols (DNS, DHCP)
+
+🔹 UDP Disadvantages ❌
+Unreliable
+
+No guarantee that data reaches the destination.
+No Ordering
+
+Packets may arrive out of order.
+No Flow Control / Congestion Control
+
+Sender can overwhelm receiver → packet loss possible.
+Error Handling Minimal
+
+Only optional checksum → errors may go undetected
+
+
+
+        ###udp/ip dose not have any handshake##
+
+
+
+
+
+
+        4) ports : in ports we have a 0 - to 65536 ports 
+
+        | Type                          | Port Range    | Description                                        | Examples                                              |
+| ----------------------------- | ------------- | -------------------------------------------------- | ----------------------------------------------------- |
+| **Well-Known Ports**          | 0 – 1023      | Standard ports used by common services             | HTTP (80), HTTPS (443), FTP (21), SSH (22), DNS (53)  |
+| **Registered Ports**          | 1024 – 49151  | Used by user applications / software               | MySQL (3306), Microsoft SQL (1433), Minecraft (25565) |
+| **Dynamic / Ephemeral Ports** | 49152 – 65535 | Randomly chosen by client for outgoing connections | Browser source port 53021, 54322 etc.                 |
+
